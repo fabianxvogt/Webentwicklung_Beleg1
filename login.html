@@ -1,8 +1,33 @@
-<html>
+<html width="100%">
     <head>
         <title>Login</title>
+        <link rel="stylesheet" href="css/login.css">
     </head>
     <body>
-        <h4>Login</h4>
+        <div>
+            <form id="form_login">
+                <h4>Login</h4><br>
+                <table >
+                    <tr>
+                        <td>
+                            User:
+                        </td>
+                        <td> 
+                            <input name="user"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Password:
+                        </td>
+                        <td>
+                            <input name="password" type="password">
+                        </td>
+                    </tr>
+                </table>
+                <br>    	
+                <input id="submit" type="button" value="Login" onclick="window.location.href='./map.html'"/>
+            </form>
+        </div>
     </body>
 </html>
